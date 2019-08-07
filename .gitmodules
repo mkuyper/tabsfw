@@ -1,0 +1,3 @@
+[submodule "basicmac"]
+	path = basicmac
+	url = ../../lorabasics/basicmac-tap
