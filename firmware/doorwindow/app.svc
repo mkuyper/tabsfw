@@ -1,0 +1,18 @@
+hook.appstart:     app_main
+hook.lwm_downlink: app_dl
+
+hook.uexti_irq:    hall_irq
+
+hook.eefs_init:    dw_cfg_load
+hook.eefs_fn:
+    - dw_eefs_fn
+
+require:
+    - appstart
+    - lwmux
+    - lwtest
+    - frag
+    - fwman
+    - uexti
+
+# vim: syntax=yaml

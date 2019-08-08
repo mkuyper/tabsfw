@@ -1,0 +1,4 @@
+src:
+    - tabs/tabs.c
+
+# vim: syntax=yaml
