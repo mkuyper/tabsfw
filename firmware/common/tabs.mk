@@ -1,7 +1,7 @@
 TOPDIR := ../../basicmac
 
 #VARIANTS := eu868 us915 hybrid simul
-VARIANTS := us915
+VARIANTS := eu868 us915 hybrid
 
 REGIONS.simul := eu868
 TARGET.simul := unicorn
@@ -23,6 +23,7 @@ DEFS += -DSVC_FWMAN_PUBKEY=fwman_testkey
 DEFS += -DSVC_FWMAN_CURVE=uECC_secp256r1
 
 LMICCFG += eeprom_keys
+LMICCFG += eeprom_region
 LMICCFG += DEBUG
 LMICCFG += extapi
 

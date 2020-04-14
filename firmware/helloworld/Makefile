@@ -23,6 +23,7 @@ DEFS += -DDEBUG_RX
 DEFS += -DDEBUG_TX
 
 LMICCFG += eeprom_keys
+LMICCFG += eeprom_region
 LMICCFG += DEBUG
 LMICCFG += extapi
 
