@@ -1,3 +1,4 @@
+// Copyright (C) 2020-2020 Michael Kuyper. All rights reserved.
 // Copyright (C) 2016-2019 Semtech (International) AG. All rights reserved.
 //
 // This file is subject to the terms and conditions defined in file 'LICENSE',
@@ -124,8 +125,9 @@ void hall_irq (unsigned int* mask) {
     }
 }
 
-void app_main (osjob_t* job) {
+bool app_main (osjob_t* job) {
     state.job = job;
     hall_init(job);
     lwm_setmode(LWM_MODE_NORMAL);
+    return true;
 }
