@@ -22,7 +22,6 @@ DEFS += -DSVC_FWMAN_TEST # enable test key function in fwman service
 DEFS += -DSVC_FWMAN_PUBKEY=fwman_testkey
 DEFS += -DSVC_FWMAN_CURVE=uECC_secp256r1
 
-LMICCFG += eeprom_keys
 LMICCFG += eeprom_region
 LMICCFG += DEBUG
 LMICCFG += extapi

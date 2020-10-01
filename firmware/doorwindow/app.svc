@@ -10,9 +10,6 @@ hook.eefs_fn:
 require:
     - appstart
     - lwmux
-    - lwtest
-    - frag
-    - fwman
     - uexti
 
 # vim: syntax=yaml

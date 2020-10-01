@@ -1,4 +1,11 @@
 src:
     - tabs/tabs.c
 
+require:
+    - eckm
+    - perso
+    - lwtest
+    - frag
+    - fwman
+
 # vim: syntax=yaml
